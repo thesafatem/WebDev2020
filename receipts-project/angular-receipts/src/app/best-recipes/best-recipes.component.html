@@ -1,0 +1,12 @@
+<div class="best">
+    <div class="best-header">
+        <p class="best-header-text">Best recipes</p>
+    </div>
+    <div class="best-list">
+        <ul class="best-ul">
+            <li *ngFor = "let recipe of recipes">
+                <a>{{recipe.title}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

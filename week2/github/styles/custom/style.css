@@ -1,0 +1,143 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #24292E;
+    height: 10vh;
+}
+
+.content__top__left {
+    display: flex;
+    align-items: center;
+}
+
+.content__top__image {
+    width: 80px;
+    height: auto;
+    margin: 5px 10px;
+}
+
+.content__top__left__link {
+    margin: 5px 10px;
+    text-decoration: none;   
+    color: white;
+    font-size: 18px;
+}
+
+.content__top__right {
+    display: flex;
+    align-items: center;
+}
+
+.content__top__right__button {
+    margin: 5px;
+    height: 30px;
+    width: auto;
+    font-size: 18px;
+    background: #24292E;
+    color: white;
+}
+
+.sign-in-button {
+    border: none;
+}
+
+.sign-up-button {
+    border: solid 0.75px white;
+    border-radius: 5px;
+}
+
+.content__top__right__search {
+    margin: 5px;
+    background: rgb(80, 80, 78);
+    border: none;
+    height: 30px;
+    width: auto;
+    color: white;
+}
+
+::placeholder {
+    /* color: rgb(163, 159, 159); */
+    color: white;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+    background: #2B3137;
+}
+
+.content__left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__left__header {
+    font-size: 92px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    color: white;
+}
+
+.content__left__text {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    color: lightgrey;
+}
+
+.content__right {
+    display: flex;
+    flex-grow: 1;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__right__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 30vw;
+    height: 70vh;
+    padding: 20px 15px;
+}
+
+.content__form__label {
+    margin: 5px 5px 10px 5px;
+    font-size: 18px;
+}
+
+.content__form__input {
+    margin: 5px;
+    height: 45px;
+}
+
+.content__form__button {
+    background: #2EBC4F;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content__form__upper-text__link{
+    text-decoration: none;
+
+}

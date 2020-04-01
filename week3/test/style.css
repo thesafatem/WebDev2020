@@ -1,0 +1,102 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__big {
+	color: green;
+	margin-bottom: 0px;
+}
+
+.header__low {
+	color: cornflowerblue;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.main__input {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#input {
+	margin: 5px;
+	height: 30px;
+	width: 400px;
+	border: 2px solid salmon;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+#add-button {
+	margin: 5px;
+	height: 30px;
+	width: 100px;
+	background: salmon;
+	color: yellow;
+	border: 2px solid salmon;
+	border-radius: 10px;
+}
+
+.main__list {
+	width: 100%;
+	display: flex;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li {
+	margin: 5px;
+	padding: 2px;
+	padding-left: 10px;
+	border: 1px solid cornflowerblue;
+	border-radius: 10px;
+	width: 510px;
+	list-style-type: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+li.undone {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+
+li.done {
+	text-decoration: line-through;
+	background-color: cornflowerblue;
+	opacity: 0.8;
+	color: white;
+}
+
+.trash-icon {
+	height: 20px;
+	width: auto;
+	margin-right: 5px;
+}

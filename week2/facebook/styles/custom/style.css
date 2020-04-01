@@ -1,0 +1,142 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header {
+    display: flex;
+    flex-direction: row;
+    background: rgb(74, 74, 182);
+    height: 10vh;
+}
+
+.content__header__facebook {
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content__header__left {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__header__right {
+    flex-grow: 1;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: row;
+    background: rgb(235, 232, 232);
+    height: 85vh;
+}
+
+.content__main__left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50vw;
+    align-items: center;
+}
+
+.content__main__left__image {
+    width: 700px;
+    height: auto;
+}
+
+.content__main__right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__main__right__header {
+    margin-bottom: 0;
+}
+
+.content__main__form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.content__main__form__name input[type=text]{
+    width: 300px;
+
+}
+.content__main__form__name {
+    display: flex;
+    align-content: stretch;
+    
+
+}
+
+.content__main__form__input {
+    margin: 5px;
+    height: 20px;
+}
+
+.content__main__form__label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.content__main__form__selects {
+    display: flex;
+    flex-direction: row;
+}
+
+.content__main__form__select {
+    width: 5vw;
+}
+
+.content__main__form__radios {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+}
+
+.content__main__form__radio {
+    margin: 0px 10px;
+}
+
+.content__main__form__text {
+    font-size: 12px;
+}
+
+.content__main__form__button {
+    width: 15vw;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.content__main__form__para {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.content__footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__footer__link {
+    margin: 0px 5px;
+    text-decoration: none;
+}
