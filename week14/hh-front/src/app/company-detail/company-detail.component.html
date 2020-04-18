@@ -1,0 +1,9 @@
+<div>
+    <h3>{{company.name}}</h3>
+    <br>
+    <h4>{{company.description}}</h4>
+    <br>
+    <div *ngFor = "let vacancy of vacancies">
+        <p>{{vacancy.name}}</p>
+    </div>
+</div>

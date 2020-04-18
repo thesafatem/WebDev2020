@@ -1,0 +1,14 @@
+<div>
+    <label>Username:
+        <input type="text" #username />
+    </label>
+    <label>
+        <input type="password" #password />
+    </label>
+    <button (click)="login(username.value, password.value)">
+        Login
+    </button>
+    <button (click)="logout()">
+        Logout
+    </button>
+</div>
